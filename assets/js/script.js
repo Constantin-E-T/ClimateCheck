@@ -148,6 +148,10 @@ window.onload = function () {
   
       // Add a button for each city in the history
       for (let i = 0; i < cityHistory.length; i++) {
+        /* This is to replace the plus sign with a space in the city name. */
+        if (cityHistory[i].indexOf("+") != -1) {
+            cityHistory[i] = cityHistory[i].replace(/\+/g, " ");
+        }
         const city = cityHistory[i];
         const cityButton = document.createElement("button");
         cityButton.classList.add(
