@@ -33,7 +33,7 @@ The app detects and displays the current weather conditions of your location or 
 
 ## Screenshots
 
-![App Screenshot](./assets/images/ClimateCheck-2023-02-04-15_03_04.png)
+![App Screenshot](./assets/images/ClimateCheck-2023-02-04.png)
 
 ## Authors
 
